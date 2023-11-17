@@ -225,7 +225,8 @@ button {
 
 /* Category List */
 #category-section {
-  margin: 60px 0;
+  padding: 60px 0;
+  background: #fafafa;
 }
 .cate-nav {
   margin-top: 80px;
@@ -250,6 +251,46 @@ button {
 .category-list .cate-item p {
   font-weight: 500;
   font-size: 16px;
+}
+
+/* Product Card  */
+#product-section {
+  margin: 100px 0;
+}
+.product-cards {
+  margin: 30px 0;
+}
+.product-nav {
+  list-style: none;
+}
+.product {
+  min-width: 250px;
+  padding: 24px 16px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 9px;
+  background: #f6f6f6;
+  justify-content: center;
+  align-items: center;
+}
+.product img {
+  width: 160px;
+  height: 160px;
+}
+.product p {
+  text-align: center;
+  font-weight: 500;
+}
+.product h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.product button {
+  background: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 70px;
 }
 
 /* Responsive */
