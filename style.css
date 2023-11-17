@@ -101,6 +101,12 @@ button {
   margin-left: auto;
   width: 80%;
 }
+.carousel-item .mac-pro-image {
+  width: 100%;
+}
+.carousel-item .mac-pro-image img {
+  width: 600px;
+}
 
 .carousel-control-prev-icon {
   color: #670e86;
@@ -388,6 +394,13 @@ button {
     width: 50%;
   }
   .search-menu {
+    width: 100%;
+  }
+  .search-bar {
+    position: relative;
+    width: 100%;
+  }
+  .search-bar input {
     width: 100%;
   }
   /* Hero section */
