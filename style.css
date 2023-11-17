@@ -279,6 +279,7 @@ button {
   background: #f6f6f6;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .product img {
   width: 160px;
@@ -297,6 +298,14 @@ button {
   font-size: 15px;
   font-weight: 500;
   padding: 12px 70px;
+}
+.product .react-product {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 30px;
+  font-size: 20px;
+  color: red;
 }
 /* Sale Section */
 #sale-section {
