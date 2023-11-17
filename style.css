@@ -57,10 +57,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-.carousel-item .banner-img {
-  margin-left: auto;
-  width: 80%;
-}
+
 .banner-des {
   height: 800px;
   margin: auto 0;
@@ -91,13 +88,42 @@ img {
   font-size: 16px;
   border: none;
 }
+
+.carousel-item .banner-img {
+  margin-left: auto;
+  width: 80%;
+}
 /* Responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* navbar */
   .navbar-brand {
     width: 50%;
   }
   .search-menu {
     width: 100%;
+  }
+  /* Hero section */
+  .banner-des {
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .carousel-item .banner-des .mini-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .carousel-item .banner-des h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .carousel-item .banner-des .des {
+    font-size: 14px;
+    text-align: center;
+  }
+  .carousel-item .banner-des button {
+    padding: 10px 56px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
   }
 }
