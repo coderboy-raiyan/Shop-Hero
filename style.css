@@ -292,7 +292,55 @@ button {
   font-weight: 500;
   padding: 12px 70px;
 }
-
+/* Sale Section */
+#sale-section {
+  background: #958ad4;
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+}
+.sale-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sale-content h2 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+.sale-content h2 span {
+  color: #25177b;
+}
+.sale-content p {
+  color: #fff;
+  width: 35%;
+  text-align: center;
+}
+#sale-section .left-img {
+  background: url("./imgs/image-19.png");
+  width: 421px;
+  height: 342px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50px;
+  left: -167px;
+}
+#sale-section .right-img {
+  background: url("./imgs/jbl_jr_310bt_blue\ 1.png");
+  width: 342px;
+  height: 357px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50px;
+  right: -66px;
+}
 /* Responsive */
 @media only screen and (max-width: 768px) {
   /* navbar */
@@ -374,5 +422,41 @@ button {
   }
   .mini-banner .mac-air-des h3 {
     font-size: 50px;
+  }
+  /* Sale Section */
+  .sale-content h2 {
+    font-size: 50px;
+  }
+  #sale-section .left-img {
+    background: url("./imgs/image-19.png");
+    width: 100%;
+    height: 342px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -212px;
+    left: 26%;
+  }
+  #sale-section .right-img {
+    background: url("./imgs/jbl_jr_310bt_blue\ 1.png");
+    width: 342px;
+    height: 357px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 400px;
+    right: -20px;
+  }
+  #sale-section {
+    height: 100vh;
+  }
+  .sale-content {
+    margin: 40px 0;
+  }
+  .sale-content p {
+    color: #fff;
+    width: 50%;
+    text-align: center;
   }
 }
