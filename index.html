@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>SHOP HERO</title>
+  </head>
+  <body>
+    <main>
+      <!--===== Header Section ==== -->
+      <header id="header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-xl">
+            <a class="navbar-brand nav-logo" href="#">
+              <img src="./imgs/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="w-lg-75 mt-lg-0 mt-4 w-100 nav-menu collapse navbar-collapse align-items-center"
+              id="navbarTogglerDemo02"
+            >
+              <ul
+                class="navbar-nav align-items-center mb-2 mb-lg-0 w-100 justify-content-between"
+              >
+                <li class="nav-item search-menu">
+                  <label class="search-bar">
+                    <input type="text" />
+                    <span
+                      ><i class="fa-solid fa-magnifying-glass"></i> Search</span
+                    >
+                  </label>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active fw-medium"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-secondary fw-medium"
+                    aria-current="page"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-secondary fw-medium"
+                    aria-current="page"
+                    href="#"
+                    >Contact us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fw-medium"
+                    aria-current="page"
+                    href="#"
+                    ><i class="fa-solid fa-cart-shopping fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fw-medium"
+                    aria-current="page"
+                    href="#"
+                    ><i class="fa-regular fa-user fs-5"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--======= Hero Section ====== -->
+      <section id="hero-section">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div
+              class="carousel-item py-5 overflow-hidden active"
+              data-bs-interval="10000"
+            >
+              <div class="container-xl row banner-content mx-auto">
+                <!-- col 1 -->
+                <div class="col banner-des">
+                  <p class="mini-title">Pro.Beyond.</p>
+                  <h2>IPhone <span>14 Pro</span></h2>
+                  <p class="des">
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <button>Shop now</button>
+                </div>
+                <!-- col-2 -->
+                <div class="col">
+                  <div class="banner-img">
+                    <img class="" src="./imgs/Iphone-Image.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
